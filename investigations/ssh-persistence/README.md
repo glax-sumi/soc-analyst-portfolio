@@ -30,8 +30,18 @@ established.
 
 ## Key Evidence
 
-### 1. SSH Authentication
+
+Then later, in your **SSH Persistence** section, keep:
+
+> This indicated that SSH public-key authentication had been configured for `backupsvc`.
+
+That keeps the two authentication events separate.
+
+### After that
+
+You can commit the project.
+
+Use:
 
 ```text
-This indicated that SSH public-key authentication had been configured for backupsvc.
-Accepted publickey for sumi from 10.0.2.2 port 52144 ssh2
+Add Linux SSH persistence investigation
